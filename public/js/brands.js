@@ -91,4 +91,5 @@ $(function() {
 function limpiar_campos() {
 	$("#formbrands")[0].reset();
 	$("#id").val('');
+	$("#errors").html('');
 }
